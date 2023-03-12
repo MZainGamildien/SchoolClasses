@@ -1,7 +1,10 @@
+/**
+ * TestClass.java
+ * This is the Class used for doing testing on the CLasses Pojo
+ * @author Carlo Joseph
+ * 12 March 2023
+ */
 package za.ac.cput;
-
-import java.util.Arrays;
-
 public class Classes {
     private String name;
     private String teacher;
