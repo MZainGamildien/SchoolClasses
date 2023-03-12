@@ -4,10 +4,10 @@ import static org.junit.Assert.*;
 
 public class TestClass {
     public void testOClassEquality() {
-        String[] students1 = {"Alice", "Bob", "Charlie"};
-        String[] students2 = {"Alice", "Bob", "Charlie"};
-        Classes c1 = new Classes("Math", "Mr. Johnson", "brad");
-        Classes c2 = new Classes("Math", "Mr. Johnson", "brad");
+        String[] students1 = {"Carlo", "Johnny", "Goodie"};
+        String[] students2 = {"Carlo", "Johnny", "Goodie"};
+        Classes c1 = new Classes("English", "Mr. Johnson", "brad");
+        Classes c2 = new Classes("English", "Mr. Johnson", "brad");
         assertEquals(c1, c2);
     }
 @Test
