@@ -5,14 +5,14 @@ import java.util.Arrays;
 public class Classes {
     private String name;
     private String teacher;
-    private String[] students;
+    private String students;
 
-    public Classes(String name, String teacher, String[] students) {
+    public Classes(String name, String teacher, String students) {
         this.name = name;
         this.teacher = teacher;
         this.students = students;
     }
-
+    private Classes(){}
     // getters and setters
     public String getName() {
         return name;
@@ -22,7 +22,7 @@ public class Classes {
         return teacher;
     }
 
-    public String[] getStudents() {
+    public String getStudents() {
         return students;
     }
 
@@ -31,7 +31,7 @@ public class Classes {
         return "Class{" +
                 "name='" + name + '\'' +
                 ", teacher='" + teacher + '\'' +
-                ", students=" + Arrays.toString(students) +
+                ", students=" + students+
                 '}';
     }
 }
