@@ -1,5 +1,7 @@
 import org.junit.*;
 import za.ac.cput.Grades;
+import za.ac.cput.Student;
+import za.ac.cput.Class;
 
 import static org.junit.Assert.*;
 
@@ -12,9 +14,9 @@ public class testGrades {
 
     @Before
     public void setUp() {
-        mathClass = new Class("Math 101");
-        johnDoe = new Student("John", "Doe");
-        janeDoe = new Student("Jane", "Doe");
+        mathClass = new Class("Math 101","Teacher","none");
+        johnDoe = new Student("John", "Doe",10,1);
+        janeDoe = new Student("Jane", "Doe",9,2);
     }
 
     @Test
