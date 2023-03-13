@@ -10,20 +10,20 @@ import static org.junit.Assert.*;
 
 public class TestClass {
     public void testOClassEquality() {
-        Classes c1 = new Classes("English", "Mr. Johnson", "brad");
-        Classes c2 = new Classes("English", "Mr. Johnson", "brad");
+        Class c1 = new Class("English", "Mr. Johnson", "brad");
+        Class c2 = new Class("English", "Mr. Johnson", "brad");
         assertEquals(c1, c2);
     }
 @Test
     public void testClassIdentity() {
-        Classes c1 = new Classes("English", "Mr. Naidoo", "BabaGworl");
-        Classes c2 = c1;
+        Class c1 = new Class("English", "Mr. Naidoo", "BabaGworl");
+        Class c2 = c1;
         assertSame(c1, c2);
     }
     @Test
     public void testClassTest() {
-        Classes c1 = new Classes("Math", "Mr. Johnson", "Jack");
-        Classes c2 = new Classes("Math", "Mr. Johnson", "Daniels");
+        Class c1 = new Class("Math", "Mr. Johnson", "Jack");
+        Class c2 = new Class("Math", "Mr. Johnson", "Daniels");
         assertEquals(c1, c2);
     }
 
