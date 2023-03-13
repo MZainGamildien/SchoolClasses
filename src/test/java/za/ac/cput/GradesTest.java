@@ -1,13 +1,14 @@
-import org.junit.*;
-import za.ac.cput.Grades;
-import za.ac.cput.Student;
-import za.ac.cput.Class;
+package za.ac.cput;
 
-import static org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Ignore;
+import org.junit.Test;
 
-public class testGrades {
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.jupiter.api.Assertions.*;
 
-    // Set up test data
+class GradesTest {
     private Class mathClass;
     private Student johnDoe;
     private Student janeDoe;
