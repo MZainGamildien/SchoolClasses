@@ -5,17 +5,17 @@
  * 12 March 2023
  */
 package za.ac.cput;
-public class Classes {
+public class Class {
     private String name;
     private String teacher;
     private String students;
 
-    public Classes(String name, String teacher, String students) {
+    public Class(String name, String teacher, String students) {
         this.name = name;
         this.teacher = teacher;
         this.students = students;
     }
-    private Classes(){}
+    private Class(){}
     // getters and setters
     public String getName() {
         return name;
